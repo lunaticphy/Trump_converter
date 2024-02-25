@@ -49,7 +49,7 @@ text_entry = tk.Text(root, height=20, width=100, wrap=tk.WORD)
 text_entry.pack(pady=10)
 
 # Create a button to trigger the action
-button = tk.Button(root, text="Click Me", command=on_button_click)
+button = tk.Button(root, text="Convert", command=on_button_click)
 button.pack(pady=10)
 ##########################################
 # Create a label for displaying the output
